@@ -129,7 +129,7 @@ h1::-moz-selection{
 }
 
 header{
-    height: 750px;
+    height: 44rem;
     background: url(images/Layer-1.png);
 
 }
@@ -216,8 +216,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     background-color: transparent;
 }
 
+.grey{
+    background-color: #f1f1f1;
+}
+h4{
+    color: #898989;
+    font: 700 17px Lato;
+    border-bottom-color: #898989;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 1rem;
+    margin-left: 20rem;
+}
 #logo{
 width: 77px;
+}
+
+h2{
+    color: #111111;
+    font: 400 3rem Lato;
+    margin-top: 0px;
 }
 
 header #navbar{
@@ -279,6 +297,16 @@ color: #27AE60;
             -ms-transform: translate(2em,0);
                 transform: translate(2em,0);
 
+}
+
+.button.round{
+    color: #2ecc71;
+    border-radius: 3rem;
+    width: 448px;
+}
+
+.button.round:hover{
+    color: #ffffff;
 }
 /* ==========================================================================
    Helper classes
@@ -442,8 +470,20 @@ color: #27AE60;
         widows: 3;
     }
 
+
+
     h2,
     h3 {
         page-break-after: avoid;
     }
+}
+
+p.subline {
+    color: #9b9b9b;
+    font: 500 1.1rem/1.4 Lato;
+    margin-top: -2rem;
+}
+
+p {
+    margin-top: 0px;
 }

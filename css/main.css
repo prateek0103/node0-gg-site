@@ -203,6 +203,7 @@ background-color: #27AE60;
 }
 
 .button img{
+    height: 1.5rem;
     visibility: hidden;
     opacity: 0;
   -webkit-transition:  visibility 0s linear 0.3s,opacity 0.3s linear; /* Safari, Chrome and Opera > 12.1 */
@@ -386,7 +387,28 @@ label:after {
     pointer-events:none;
 }
 
+.flat:before,.flat:after{
+    color: #2ecc71;
+    font-size: 3rem;
+}
 
+.box{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    border-bottom-color: #2ecc71;
+    border-bottom-width: 1rem;
+    border-bottom-style: solid;
+}
+
+.box i{
+    color: #c3c3c3;
+    font-size: 5rem;
+}
+
+.box h3{
+    color: #121212;
+    font: 700 2rem / 3rem Lato;
+}
 
 /* ==========================================================================
    Helper classes
@@ -582,4 +604,20 @@ p {
 }
 #makeInIndia {
     margin-top: 3rem;
+}
+
+
+
+.flaticon-programminglanguage6 {
+
+}
+
+.subs {
+    visibility: hidden;
+    margin-top: -20px;
+    font: 400 1rem / 1rem Lato;
+}
+
+.white{
+background-color: white;
 }

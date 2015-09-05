@@ -97,20 +97,164 @@ textarea {
 
 
 
+body{
+font-family: Lato;
+    font-weight: 400;
+}
+
+
+h1::selection{
+    background: #2ecc71;
+}
+
+.fa{
+    color: white;
+    -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 0.3s ease 0s; /* Firefox < 16 */
+        -ms-transition: all 0.3s ease 0s; /* Internet Explorer */
+         -o-transition:  all 0.3s ease 0s; /* Opera < 12.1 */
+            transition: all 0.3s ease 0s;
+}
+
+.fa:hover{
+color: #2ecc71;
+}
+
+.fa:active{
+color : #27AE60;
+}
+
+h1::-moz-selection{
+    background: #2ecc71;
+}
+
+header{
+    height: 750px;
+    background: url(images/Layer-1.png);
+
+}
+
+header nav ul{
+    margin-top: 0px;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 64px;
+    margin-top: 10rem;
+
+}
+
+header.container-fluid-lg div.row.around-xs.around-sm.around-md.around-lg{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2%;
+}
+
+.button{
+    display: inline-block;
+    background: none;
+    border-color: #2ecc71;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    color: #ffffff;
+    font: 700 17px Lato;
+    width: 208px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+       -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 0.3s ease 0s; /* Firefox < 16 */
+        -ms-transition: all 0.3s ease 0s; /* Internet Explorer */
+         -o-transition:  all 0.3s ease 0s; /* Opera < 12.1 */
+            transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+    background-color: #2ecc71;
+}
+
+#buttonRow{
+-webkit-transition: -webkit-transform 0.3s ease-in-out; /* Changed here */
+     -moz-transition: -moz-transform 0.3s ease-in-out;
+       -o-transition: -o-transform 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out;
+}
+
+.button:active{
+background-color: #27AE60;
+    border-color: #27AE60;
+}
+
+.button img{
+    visibility: hidden;
+    opacity: 0;
+  -webkit-transition:  visibility 0s linear 0.3s,opacity 0.3s linear; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: visibility 0s linear 0.3s,opacity 0.3s linear; /* Firefox < 16 */
+        -ms-transition:visibility 0s linear 0.3s,opacity 0.3s linear; /* Internet Explorer */
+         -o-transition:  visibility 0s linear 0.3s,opacity 0.3s linear; /* Opera < 12.1 */
+            transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+
+
+}
+
+#logo{
+width: 77px;
+}
+
+nav{
+position: ;
+}
+
+#logoText:hover{
+color:white;
+}
+
+nav{
+padding-top: 1rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+vertical-align: middle;
+    -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 0.3s ease 0s; /* Firefox < 16 */
+        -ms-transition: all 0.3s ease 0s; /* Internet Explorer */
+         -o-transition:  all 0.3s ease 0s; /* Opera < 12.1 */
+            transition: all 0.3s ease 0s;
+}
+
+nav a:hover{
+color: #2ecc71;
+}
+
+nav a:active{
+color: #27AE60;
+}
+
+#logoText{
+    font-size: 30px;
+}
+
+.button:hover img{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+
+}
 
 
 
+.button:hover #buttonRow{
+-webkit-transform: translate(2em,0);
+            -moz-transform: translate(2em,0);
+            -o-transform: translate(2em,0);
+            -ms-transform: translate(2em,0);
+                transform: translate(2em,0);
 
-
-
-
-
-
-
-
-
-
-
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

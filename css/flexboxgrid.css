@@ -18,12 +18,7 @@
  *
 */
 
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
+
 
 .row {
   box-sizing: border-box;
@@ -294,6 +289,13 @@
     width: 46rem;
   }
 
+.container-fluid-sm {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
   .col-sm,
   .col-sm-1,
   .col-sm-2,
@@ -534,6 +536,13 @@
     width: 61rem;
   }
 
+    .container-fluid-md {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
   .col-md,
   .col-md-1,
   .col-md-2,
@@ -773,6 +782,13 @@
   .container {
     width: 71rem;
   }
+
+    .container-fluid-lg {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20rem;
+  padding-left: 20rem;
+}
 
   .col-lg,
   .col-lg-1,

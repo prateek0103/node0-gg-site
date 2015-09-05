@@ -139,13 +139,14 @@ header nav ul{
 }
 
 header h1{
+
     color: #ffffff;
     font-size: 64px;
-    margin-top: 10rem;
+    margin-top: 17rem;
 
 }
 
-header.container-fluid-lg div.row.around-xs.around-sm.around-md.around-lg{
+header div.container-fluid-lg div.row.around-xs.around-sm.around-md.around-lg{
     padding-left: 20%;
     padding-right: 20%;
     margin-top: 2%;
@@ -200,16 +201,38 @@ background-color: #27AE60;
 
 }
 
+.navbarGradient{
+background: rgba(0,0,0,1);
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(255,255,255,0)));
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+}
+
+.withoutGradient{
+    background-color: transparent;
+}
+
 #logo{
 width: 77px;
 }
 
-nav{
-position: ;
-}
+header #navbar{
+    position: fixed;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
-#logoText:hover{
-color:white;
+      -webkit-transition:  all 0.3s linear 0.3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 0.3s linear 0.3s; /* Firefox < 16 */
+        -ms-transition: all 0.3s linear 0.3s; /* Internet Explorer */
+         -o-transition:  all 0.3s linear 0.3s; /* Opera < 12.1 */
+            transition: all 0.3s linear 0.3s;
 }
 
 nav{
@@ -234,7 +257,9 @@ nav a:active{
 color: #27AE60;
 }
 
+
 #logoText{
+    color: white;
     font-size: 30px;
 }
 

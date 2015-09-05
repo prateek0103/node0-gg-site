@@ -570,7 +570,14 @@ p {
 
 
 
+.fa-angellist{
+    color: lightslategrey;
+}
 
+.fa-angellist:hover{
+    color: lightslategrey;
+    cursor: not-allowed;
+}
 #makeInIndia {
     margin-top: 3rem;
 }

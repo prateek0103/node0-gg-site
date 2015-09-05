@@ -116,8 +116,25 @@ h1::selection{
             transition: all 0.3s ease 0s;
 }
 
+.row>a{
+color: white;
+    text-decoration: none;
+}
+
 .fa:hover{
 color: #2ecc71;
+}
+
+#copyright{
+    color: #1f1f1f;
+}
+
+#copyright i{
+    color: #1f1f1f;
+}
+
+.socialIcons i:hover{
+    cursor: pointer;
 }
 
 .fa:active{
@@ -129,7 +146,7 @@ h1::-moz-selection{
 }
 
 header{
-    height: 44rem;
+    height: 42rem;
     background: url(images/Layer-1.png);
 
 }
@@ -175,6 +192,7 @@ header div.container-fluid-lg div.row.around-xs.around-sm.around-md.around-lg{
 
 .button:hover{
     background-color: #2ecc71;
+    cursor: pointer;
 }
 
 #buttonRow{
@@ -299,6 +317,12 @@ color: #27AE60;
 
 }
 
+footer{
+    background-color: #060606;
+    color: white;
+    padding-top: 3rem;
+}
+
 .button.round{
     color: #2ecc71;
     border-radius: 3rem;
@@ -308,6 +332,65 @@ color: #27AE60;
 .button.round:hover{
     color: #ffffff;
 }
+
+.cta{
+    background-color: #202020;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#getInTouch{
+color: #ffffff;
+    font: 700 30px / 51px Lato;
+}
+
+.cta h1{
+    color: white;
+    color: #ffffff;
+    font: 700 72px / 51px Lato;
+}
+
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background: #2ecc71;
+    color:#fff;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    width: 15rem;
+    height: 2.3rem;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    font-family: FontAwesome;
+    content:"\f0da";
+    color:#fff;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px;
+    top:2px;
+    padding:0 10px 2px;
+    border-bottom:1px solid #27ae60;
+    position:absolute;
+    pointer-events:none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -486,4 +569,13 @@ p.subline {
 
 p {
     margin-top: 0px;
+}
+
+
+
+
+
+
+#makeInIndia {
+    margin-top: 6rem;
 }

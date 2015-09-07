@@ -249,21 +249,21 @@ width: 77px;
 .box:hover .start{
     opacity: 1;
 
-      -webkit-transform:  translate(-6%, 653%);
-            -moz-transform: translate(-6%, 653%);
-            -o-transform:  translate(-6%, 653%);
-            -ms-transform: translate(-6%, 653%);
-                transform: translate(-6%, 653%);
+      -webkit-transform:  translate(-0%, 875%);
+            -moz-transform: translate(-0%, 875%);
+            -o-transform:  translate(-0%, 875%);
+            -ms-transform: translate(-0%, 875%);
+                transform: translate(-0%, 875%);
 }
 
 .box:hover .start.know{
     opacity: 1;
 
-      -webkit-transform:  translate(-6%, 345%);
-            -moz-transform: translate(-6%, 345%);
-            -o-transform:  translate(-6%, 345%);
-            -ms-transform: translate(-6%, 345%);
-                transform: translate(-6%, 345%);
+      -webkit-transform:  translate(-2.5%, 407%);
+            -moz-transform: translate(-2.5%, 407%);
+            -o-transform:  translate(-2.5%, 407%);
+            -ms-transform: translate(-2.5%, 407%);
+                transform: translate(-2.5%, 407%);
 }
 
 .start{
@@ -273,7 +273,7 @@ width: 77px;
             -moz-transform:  translate(-25%, 653%);
             -o-transform:  translate(-25%, 653%);
             -ms-transform: translate(-25%, 653%);
-                transform:  translate(-25%, 653%);
+                transform:  translate(-25%, 875%);
 
 
 
@@ -285,11 +285,11 @@ width: 77px;
 }
 
 .start.know{
-   -webkit-transform:  translate(-25%, 345%);
-            -moz-transform:  translate(-25%, 345%);
-            -o-transform:  translate(-25%, 345%);
-            -ms-transform: translate(-25%, 345%);
-                transform:  translate(-25%, 345%);
+   -webkit-transform:  translate(-25%, 407%);
+            -moz-transform:  translate(-25%, 407%);
+            -o-transform:  translate(-25%, 407%);
+            -ms-transform: translate(-25%, 407%);
+                transform:  translate(-25%, 407%);
 }
 
 .rightArrow.knowArrow{
@@ -469,11 +469,12 @@ label:after {
 }
 
 .box{
+    background-size:cover;
     position: relative;
     height: 23rem;
     box-sizing: border-box;
     padding-top: 2rem;
-    padding-left: 3rem;
+    padding-left:3rem;
     border-bottom-color: #2ecc71;
     border-bottom-width: 1rem;
     border-bottom-style: solid;
@@ -488,7 +489,6 @@ label:after {
 .box:hover{
     border-bottom-width: 2.5rem;
     cursor: pointer;
-    background-color: black;
 }
 
 .box:hover i{
@@ -529,6 +529,7 @@ label:after {
 .box i{
     position: absolute;
     top: 2rem;
+    left: 2rem;
     color: #c3c3c3;
     font-size: 5rem;
      -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
@@ -541,6 +542,7 @@ label:after {
 .box h3{
     position: absolute;
     top: 8rem;
+    left: 2rem;
     color: #121212;
     font: 700 2rem / 3rem Lato;
     -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
@@ -567,6 +569,7 @@ label:after {
 
 .subs {
     position: absolute;
+    left: 1.4rem;
     transform: translateY(350%);
     color: white;
     visibility: hidden;
@@ -767,3 +770,35 @@ p {
 
 
 
+
+#embedded:hover {
+    background-image: url(../img/board.jpg);
+}
+
+#iot:hover {
+    background-image: url(../img/shipping.jpg);
+}
+
+#networking:hover {
+    background-image: url(../img/datacenter.jpg);
+}
+
+#web:hover {
+    background-image: url(../img/code.jpg);
+}
+
+#product:hover {
+    background-image: url(../img/blueprint.jpg);
+}
+
+#ideabox:hover {
+    background-image: url(../img/vault.jpg);
+}
+
+#mesh:hover {
+    background-image: url(../img/mesh.jpg);
+}
+
+#polygn:hover {
+    background-image: url(../img/tower.jpg);
+}

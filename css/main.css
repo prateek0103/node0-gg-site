@@ -100,6 +100,8 @@ textarea {
 body{
 font-family: Lato;
     font-weight: 400;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -156,12 +158,6 @@ header h1{
     font-size: 64px;
     margin-top: 17rem;
 
-}
-
-header div.container-fluid-lg div.row.around-xs.around-sm.around-md.around-lg{
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: 2%;
 }
 
 .button{
@@ -240,7 +236,8 @@ h4{
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 1rem;
-    margin-left: 20rem;
+    width: 100vw;
+    max-width: 94.5rem;
 }
 #logo{
 width: 77px;
@@ -249,31 +246,31 @@ width: 77px;
 .box:hover .start{
     opacity: 1;
 
-      -webkit-transform:  translate(-0%, 875%);
-            -moz-transform: translate(-0%, 875%);
-            -o-transform:  translate(-0%, 875%);
-            -ms-transform: translate(-0%, 875%);
-                transform: translate(-0%, 875%);
+      -webkit-transform:  translate(0rem, 18.7rem);
+            -moz-transform: translate(0rem, 18.7rem);
+            -o-transform:  translate(0rem, 18.7rem);
+            -ms-transform: translate(0rem, 18.7rem);
+                transform: translate(0rem, 18.7rem);
 }
 
 .box:hover .start.know{
     opacity: 1;
 
-      -webkit-transform:  translate(-2.5%, 407%);
-            -moz-transform: translate(-2.5%, 407%);
-            -o-transform:  translate(-2.5%, 407%);
-            -ms-transform: translate(-2.5%, 407%);
-                transform: translate(-2.5%, 407%);
+      -webkit-transform:  translate(0rem, 17.7rem);
+            -moz-transform: translate(0rem, 17.7rem);
+            -o-transform:  translate(0rem, 17.7rem);
+            -ms-transform: translate(0rem, 17.7rem);
+                transform: translate(0rem, 17.7rem);
 }
 
 .start{
     opacity: 0;
 
-    -webkit-transform:  translate(-25%, 653%);
-            -moz-transform:  translate(-25%, 653%);
-            -o-transform:  translate(-25%, 653%);
-            -ms-transform: translate(-25%, 653%);
-                transform:  translate(-25%, 875%);
+    -webkit-transform:  translate(-5rem, 18.7rem);
+            -moz-transform:  translate(-5rem, 18.7rem);
+            -o-transform:  translate(-5rem, 18.7rem);
+            -ms-transform: translate(-5rem, 18.7rem);
+                transform:  translate(-5rem, 18.7rem);
 
 
 
@@ -285,11 +282,12 @@ width: 77px;
 }
 
 .start.know{
-   -webkit-transform:  translate(-25%, 407%);
-            -moz-transform:  translate(-25%, 407%);
-            -o-transform:  translate(-25%, 407%);
-            -ms-transform: translate(-25%, 407%);
-                transform:  translate(-25%, 407%);
+    opacity: 0;
+   -webkit-transform:  translate(-4rem, 17.7rem);
+            -moz-transform:  translate(-4rem, 17.7rem);
+            -o-transform:  translate(-4rem, 17.7rem);
+            -ms-transform: translate(-4rem, 17.7rem);
+                transform:  translate(-4rem, 17.7rem);
 }
 
 .rightArrow.knowArrow{
@@ -331,8 +329,8 @@ header #navbar{
     z-index: 100;
     position: fixed;
     width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 17rem;
+    padding-right: 17rem;
     padding-top: 5px;
     padding-bottom: 5px;
 
@@ -570,7 +568,7 @@ label:after {
 .subs {
     position: absolute;
     left: 1.4rem;
-    transform: translateY(350%);
+    transform: translateY(20rem);
     color: white;
     visibility: hidden;
     opacity: 0;

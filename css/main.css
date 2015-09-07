@@ -327,10 +327,8 @@ h2{
 
 header #navbar{
     z-index: 100;
+    width: 80rem;
     position: fixed;
-    width: 100%;
-    padding-left: 17rem;
-    padding-right: 17rem;
     padding-top: 5px;
     padding-bottom: 5px;
 
@@ -341,9 +339,7 @@ header #navbar{
             transition: all 0.3s linear 0.3s;
 }
 
-nav{
-padding-top: 1rem;
-}
+
 nav a{
     color: white;
     text-decoration: none;
@@ -658,13 +654,67 @@ background-color: white;
     clear: both;
 }
 
+#embedded:hover {
+    background-image: url(../img/board.jpg);
+}
+
+#iot:hover {
+    background-image: url(../img/shipping.jpg);
+}
+
+#networking:hover {
+    background-image: url(../img/datacenter.jpg);
+}
+
+#web:hover {
+    background-image: url(../img/code.jpg);
+}
+
+#product:hover {
+    background-image: url(../img/blueprint.jpg);
+}
+
+#ideabox:hover {
+    background-image: url(../img/vault.jpg);
+}
+
+#mesh:hover {
+    background-image: url(../img/mesh.jpg);
+}
+
+#polygn:hover {
+    background-image: url(../img/tower.jpg);
+}
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 48em) {
+    /* Style adjustments for viewports that meet the condition */
+    .box{
+    float: none;
+    }
+
+    nav a{
+       display: none;
+    }
+
+    .button{
+        float: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 62em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (min-width: 75em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
@@ -764,39 +814,3 @@ p {
     margin-top: 0px;
 }
 
-
-
-
-
-
-#embedded:hover {
-    background-image: url(../img/board.jpg);
-}
-
-#iot:hover {
-    background-image: url(../img/shipping.jpg);
-}
-
-#networking:hover {
-    background-image: url(../img/datacenter.jpg);
-}
-
-#web:hover {
-    background-image: url(../img/code.jpg);
-}
-
-#product:hover {
-    background-image: url(../img/blueprint.jpg);
-}
-
-#ideabox:hover {
-    background-image: url(../img/vault.jpg);
-}
-
-#mesh:hover {
-    background-image: url(../img/mesh.jpg);
-}
-
-#polygn:hover {
-    background-image: url(../img/tower.jpg);
-}

@@ -105,7 +105,14 @@ font-family: Lato;
 }
 
 
-
+#mc_embed_signup {
+        background: #000;
+        clear: left;
+        font: 1em;
+        width: 18em;
+        font-family: Lato;
+    color: black;
+}
 
 .fa{
     color: white;

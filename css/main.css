@@ -335,7 +335,9 @@ h2{
 
 header #navbar{
     z-index: 100;
-    width: 80rem;
+    width: 100%;
+    padding-left: 20rem;
+    padding-right: 20rem;
     position: fixed;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -711,10 +713,13 @@ background-color: white;
        display: none;
     }
 
-    .button{
+    .button, .button.round{
         float: none;
+        width: 100%;
     }
-
+    header{
+        height: auto;
+    }
 
 }
 

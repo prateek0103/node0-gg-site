@@ -109,8 +109,9 @@ font-family: Lato;
         background: #000;
         clear: left;
         font: 1em;
-        width: 18em;
+        width: 16.5em;
         font-family: Lato;
+    margin-top: -2em;
     color: black;
 }
 

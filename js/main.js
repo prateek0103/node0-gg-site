@@ -5,9 +5,9 @@ $(document).ready(function(){
    $(document).scroll(function() {
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('#navbar').addClass('navbarGradient');
+          $('#navbar').removeClass('withoutGradient').addClass('navbarGradient');
        } else {
-          $('#navbar').removeClass('navbarGradient');
+          $('#navbar').removeClass('navbarGradient').addClass('withoutGradient');
        }
    });
 });

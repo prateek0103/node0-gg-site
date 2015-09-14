@@ -34,7 +34,9 @@ html {
     text-shadow: none;
 }
 
-/*
+.researchSection hr{
+margin-left: 23.5rem;
+}/*
  * A better looking default horizontal rule
  */
 
@@ -42,9 +44,8 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    border-top: 1px solid #fff;
+    margin-left: 24rem;
 }
 
 /*
@@ -113,6 +114,7 @@ font-family: Lato;
         font-family: Lato;
     margin-top: -2em;
     color: black;
+    background-color: #060606;
 }
 
 .fa{
@@ -152,7 +154,7 @@ color : #27AE60;
 
 header{
     height: 42rem;
-    background: url(images/Layer-1.png);
+    background: url(images/Layer-1.jpg);
 
 }
 
@@ -220,14 +222,7 @@ background-color: #27AE60;
 }
 
 .navbarGradient{
-background: rgba(0,0,0,1);
-background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(255,255,255,0)));
-background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+background-color:rgba(0,0,0,0.6);
 }
 
 .withoutGradient{
@@ -237,6 +232,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .grey{
     background-color: #f1f1f1;
 }
+.approachSection h4{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.researchSection h4{
+    border-bottom: 0;
+    color: white;
+}
+
+.approachSection h2{
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+
 h4{
     color: #898989;
     font: 700 17px Lato;
@@ -467,6 +479,12 @@ label:after {
     pointer-events:none;
 }
 
+
+.approachSection .flat:before, .flat:after{
+font-size: 6rem;
+    color:cornflowerblue
+}
+
 .flat:before,.flat:after{
     color: #2ecc71;
     font-size: 3rem;
@@ -516,6 +534,10 @@ label:after {
                 transform: scale(0.8,0.8) translate(-20%,-65%);
 
 
+}
+
+.researchSection h3{
+    font-size: 2rem;
 }
 
 .box:hover .subs{
@@ -745,6 +767,8 @@ background-color: white;
    ========================================================================== */
 
 @media print {
+
+
     *,
     *:before,
     *:after {
@@ -802,6 +826,7 @@ background-color: white;
         max-width: 100% !important;
     }
 
+
     p,
     h2,
     h3 {
@@ -829,4 +854,111 @@ p {
 
 a{
     text-decoration: none;
+}
+
+
+.approachUnder {
+    color: white;
+}
+
+.approach #navbar{
+    width: 101%;
+    background-color: #060606;
+}
+
+.approach{
+height: auto;
+    padding-bottom: 5rem;
+    background-image: none;
+    background-color: #2ecc71;
+}
+
+.approach h1{
+    margin-top: 10rem;
+    margin-bottom: 0;
+}
+
+
+.approach h5{
+
+}
+
+
+.approachH4 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 0;
+    width: 80%;
+}
+
+section {
+
+}
+
+.approachSection {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.researchSection {
+    background-image: url(images/research.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.researchSection h2{
+    padding-top: 0.5rem;
+    color: white;
+    font-size: 1.9rem;
+    text-align: center;
+    vertical-align: middle;
+   margin-bottom: 1rem;
+   margin-left: -1rem;
+    width: 3.54rem;
+    height: 2.9rem;
+    border-radius: 50%;
+     background-color: #2ecc71;
+}
+
+.researchSectionRow {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.researchSectionRow p{
+    font-weight: 700;
+    color: #898989;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -.7em;
+    margin-top: 1rem;
+    color: #707070;
+}
+
+li:before {
+    content: "• ";
+    color: #2ecc71; /* or whatever color you prefer */
+}
+
+.prototype {
+    background-image: url(images/test.jpg);
+}
+
+.test {
+    background-image: url(images/prototype.jpg);
+}
+
+.build {
+    background-image: url(images/build.jpg);
 }

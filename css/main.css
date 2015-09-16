@@ -162,11 +162,53 @@ header nav ul{
     margin-top: 0px;
 }
 
+.timer h2{
+    opacity: 0;
+    color: white;
+    font-size: 2rem;
+    transform: translate(55rem,-5.9rem);
+
+    -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 0.3s ease 0s; /* Firefox < 16 */
+        -ms-transition: all 0.3s ease 0s; /* Internet Explorer */
+         -o-transition:  all 0.3s ease 0s; /* Opera < 12.1 */
+            transition: all 0.3s ease
+}
+
+.box .timer .fa{
+    opacity: 0;
+    transform: translate(1270%,102%) scale(0.4,0.4);
+}
+
+.box:hover .timer .fa{
+    opacity: 1;
+    color: white;
+}
+
+.box:hover h2{
+    opacity: 1;
+
+}
+
 .contactus h1{
     font-size: 6rem;
     letter-spacing: 1px;
     text-align:center;
     margin-top: 0;
+
+    -webkit-transition:  all 0.3s ease 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 0.3s ease 0s; /* Firefox < 16 */
+        -ms-transition: all 0.3s ease 0s; /* Internet Explorer */
+         -o-transition:  all 0.3s ease 0s; /* Opera < 12.1 */
+            transition: all 0.3s ease
+}
+
+.contactus:hover h1{
+    -webkit-transform: scale(0.8,0.8) translate(-20%,-20%);
+            -moz-transform: scale(0.8,0.8) translate(-20%,-20%);
+            -o-transform: scale(0.8,0.8) translate(-20%,-20%);
+            -ms-transform: scale(0.8,0.8) translate(-20%,-20%);
+                transform: scale(0.8,0.8) translate(-20%,-10%);
 }
 
 header h1{
@@ -866,6 +908,18 @@ p.subline {
     margin-top: -2rem;
 }
 
+.address{
+    transform: translate(5%,3%);
+}
+.contactus p{
+    font-size: 1.3rem;
+margin: 0;
+    font-weight: 700;
+
+    }
+.addressText:hover .address{
+    transform: scale(0.8,0.8) translateX(-15%);
+}
 p {
     margin-top: 0px;
 }

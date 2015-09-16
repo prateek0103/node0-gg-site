@@ -11,3 +11,7 @@ $(document).ready(function(){
        }
    });
 });
+
+function startProject(){
+    window.location.href = 'http://node0labs.typeform.com/to/apv8Ng';
+}

@@ -11,14 +11,13 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.2.0/flexboxgrid.min.css" type="text/css">
+    <link href='css/font.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/flaticon/flaticon.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css"-->
 </head>
 <!-- Begin MailChimp Signup Form -->
 
@@ -480,7 +479,7 @@
                             </div>
                         </form>
                     </div>
-                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <!--script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script-->
                     <script type='text/javascript'>
                         (function($) {
                             window.fnames = new Array();
@@ -515,10 +514,12 @@
                 <div id="copyright" class="col-lg"><i class="fa fa-copyright"></i> node0 Inc. 2015.</div>
             </div>
         </div>
+<link href='css/font.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </footer>
 
 
-    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/vendor/jquery-latest-js.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     </script>
@@ -536,7 +537,7 @@
             b[l].l = +new Date;
             e = o.createElement(i);
             r = o.getElementsByTagName(i)[0];
-            e.src = 'https://www.google-analytics.com/analytics.js';
+            e.src = 'js/vendor/analytics.js';
             r.parentNode.insertBefore(e, r)
         }(window, document, 'script', 'ga'));
         ga('create', 'UA-XXXXX-X', 'auto');

@@ -48,6 +48,8 @@ hr {
     margin-left: 24rem;
 }
 
+
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -310,6 +312,7 @@ h4{
 }
 #logo{
 width: 77px;
+    height: 77px;
 }
 
 .box:hover .start{
